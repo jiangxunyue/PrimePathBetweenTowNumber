@@ -16,7 +16,6 @@ function findPrimePath(origin, result) {
 
 	let resultNode = null;
 
-	let i = 0;
 	while(middleResult.size > 0 && !middleResult.has(result)) {
 
 		let tmpMiddleResult = new Map();
